@@ -1,0 +1,27 @@
+#serif {
+    font-family: Times, "Times New Roman", Serif;
+  }
+  
+  #sans-Serif {
+    font-family: Sans-Serif;
+  }
+  
+  #monospace{
+    font-family: Monospace;
+    
+  }
+  
+  #cursive{
+    font-family: Cursive;
+    
+  }
+  
+  #fantasy {
+    font-family: Fantasy;
+    
+  }
+  
+  #google {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+  font-family: 'Viaoda Libre', cursive;
+  }
