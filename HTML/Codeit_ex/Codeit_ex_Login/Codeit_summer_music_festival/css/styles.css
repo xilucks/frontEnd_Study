@@ -56,7 +56,11 @@ body {
   }
   
   .learn-more {
-    /* 여기에 입력하세요. */
-   
+    border: 3px solid white;
+    font-size: 18px;
+    padding: 8px 40px 8px 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
   }
   
