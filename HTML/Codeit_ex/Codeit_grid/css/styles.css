@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+  }
+  
+  /* 전체 */
+  
+  div {
+    height: 200px;
+  }
+  
+  /* 개별 */
+  
+  #red {
+    width: 100%;
+    float: left;
+    background-color: #ff0000;
+  }
+  
+  #orange {
+      width: 25%;
+      float: left;
+      background-color: #ffa500;
+  }
+  
+  #yellow {
+      width: 50%;
+      background-color: #ffff00;
+      float: left;
+  }
+  
+  #green {
+      width: 25%;
+      background-color: #008000;
+      float: left;
+  }
+  
+  #blue {
+      width: 50%;
+      background-color: #0000FF;
+      float: left;
+  }
+  
+  #indigo {
+      width: 50%;
+      background-color: #4B0082;
+      float: left;
+  }
+  
+  #purple {
+      width: 100%;
+      background-color: #800080;
+      float: left;
+  }
