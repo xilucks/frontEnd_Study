@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>로그인</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <div class="login-form">
+    <form>
+      <input type="text" name="email" id = email class="text-field" placeholder="아이디">
+      <input type="password" name="password" id = password class="text-field" placeholder="비밀번호">
+      <input type="submit" value="로그인" id="submit-btn">
+    </form>
+
+    <div class="links">
+      <a href="#">비밀번호를 잊어버리셨나요?</a>
+    </div>
+  </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+  $('#email').on('input', usekey);
+  $('#password').on('input', usekey);
+
+  function usekey(){
+   var id = $('#email').val();
+   var pw = $('#password').val();
+
+   if(id === '' || pw ===''){
+    $('#submit-btn').css('background-color', '#9B9B9B');
+   } 
+   else {
+    $('#submit-btn').css('background-color', '#1BBC9B');
+   }
+  }
+</script>
+</html>
