@@ -41,9 +41,9 @@
         else if (event.key ==='4') target = 'paris';
         
       }
-    
+      $('#photo').hide();
       $('#photo').attr('src', 'images/'+target+'.png');
-
+      $('#photo').fadeIn(3000);
       $('#menu a').css('font-weight', 'normal');
       $('#'+target).css('font-weight','bold');
 
