@@ -30,6 +30,10 @@ function scrollHandler() {
     else{
         $('.to-top-btn').fadeOut();
     }
+
+    $('.to-top-btn').on('click', function(){
+        $('html, body').animate({scrollTop: 0}, 1000);
+    });
 }
 
 $(window).on('scroll', scrollHandler);
